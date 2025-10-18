@@ -1,0 +1,66 @@
+{
+  "id": "pf1-critical-and-fumble-decks",
+  "title": "PF1 Critical and Fumble Decks",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Simple tables for critical hits and fumble decks from the Game Mastery decks</p>",
+  "authors": [
+    {
+      "name": "JSL",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "crit-hits",
+      "label": "Critical Hits",
+      "path": "packs/crit-hits",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "crit-rolltables",
+      "label": "Critical Rolltables",
+      "path": "packs/crit-rolltables",
+      "type": "RollTable",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "crit-fumbles",
+      "label": "Critical Fumbles",
+      "path": "packs/crit-fumbles",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf1"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": 11.8,
+          "verified": 11.8
+        }
+      }
+    ]
+  }
+}
